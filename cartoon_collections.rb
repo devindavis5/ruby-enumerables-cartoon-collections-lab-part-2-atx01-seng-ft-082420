@@ -24,7 +24,7 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  
+  i = 0
   planeteer_calls.count{|element| element == valid_calls[i]}
   
   # Use an Enumerable to check if any elements in the passed in array match the valid calls listed above 
